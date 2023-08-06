@@ -8,7 +8,7 @@ import CardDetail from './Components/CardDetail.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Link to='/'>
-      <h1 className='text-5xl font-medium text-center p-8'>React Image Gallery</h1>
+      <h1 className='text-7xl font-medium text-center p-8'>React Image Gallery</h1>
     </Link>
     <Routes>
       <Route path='/' element={<App />} />
